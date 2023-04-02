@@ -1,0 +1,19 @@
+h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    font-weight: 800;
+    color: #880d0d;
+    text-align: center;
+    transition: all 0.2s ease-in-out; /* transición para que sea suave el cambio */
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); /* sombra para resaltar */
+  }
+  
+  h1:hover {
+    color: rgb(33, 15, 15);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); /* sombra más grande al hacer hover */
+    transform: translate(-50%, -55%); /* subir un poco el texto */
+  }
+  
